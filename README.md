@@ -24,7 +24,7 @@
   <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS icon" width="50" height="50" />
   <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes icon" width="50" height="50" />
   <img src="https://techstack-generator.vercel.app/terraform-icon.svg" alt="Terraform icon" width="50" height="50" />
-  <img src="https://techstack-generator.vercel.app/datadog-icon.svg" alt="Datadog icon" width="50" height="50" />
-  <img src="https://techstack-generator.vercel.app/jenkins-icon.svg" alt="Jenkins icon" width="50" height="50" />
+  <img src="https://banner2.cleanpng.com/20180806/cp/kisspng-datadog-computer-software-business-cloud-computing-custom-metrics-datadog-training-site-5b68966e0a1bc9.8968359515335809100414.jpg" alt="Datadog icon" width="50" height="50" />
+  <img src="https://techstack-generator.vercel.app/tf-icon.svg" alt="Jenkins icon" width="50" height="50" />
 </div>
 
