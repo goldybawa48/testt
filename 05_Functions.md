@@ -37,7 +37,7 @@
 
 - Now the output of this code is `name = "goldy--->vishal--->sanjeev"`
 
-## 2. upper
+### 2. upper
 
 - This funtion is used to make the value uppercase.
 - In terraform.
@@ -54,7 +54,7 @@
 
 - The output is `name = "GOLDY"`
 
-## 3. lower
+### 3. lower
 
 - This function is used to make the volue lowercase.
 - In terraform.
@@ -71,7 +71,7 @@
 s
 - The output is `name = "goldy"`
 
-## 4. title
+### 4. title
 
 - This function is used to make the first latter capital of the value.
 - In terraform.
@@ -88,7 +88,7 @@ s
 
 - The output is `name = "Goldy"`
 
-## 4. lookup
+### 4. lookup
 
 - lookup is used in terraform to match the given abject in map and get the matching value of that object.
 
