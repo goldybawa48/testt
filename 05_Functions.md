@@ -88,6 +88,30 @@ s
 
 - The output is `name = "Goldy"`
 
+## 4. lookup
+
+- lookup is used in terraform to match the given abject in map and get the matching value of that object.
+
+    ```bash
+    variable "name" {
+    }
+
+    variable "age" {
+      type = map
+      default = {
+        goldy = "18"
+        vishal = "22"
+        sanjeev = "24"
+      }
+    }
+
+    output "name-age" {
+
+      value = "Hi me name is ${var.name} and my age is ${lookup(var.age, var.name)}"
+    }
+
+- In this code lookup find the value(age) from the map(var.age) of the name which is stored in var.name.
+
 ## Note
 
 - You can try these functions with all types of variables.
