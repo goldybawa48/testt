@@ -10,8 +10,10 @@
 
 ## Commands
 
-- `terraform validate` The terraform validate command checks your Terraform configuration files for syntax errors and logical issues, ensuring they are correct and valid before applying any changes.
-- `terraform show` The terraform show command lets you see the details of your current infrastructure setup from tfstat file or planned changes in an easy-to-read format.
-- `terraform refresh` The terraform refresh command updates the state file to reflect the actual state of resources. Example i create a repository with desciption `hello from goldy` and any devloper change after me change the description of this repo to `hello from xyz`.
+1. `terraform validate` The terraform validate command checks your Terraform configuration files for syntax errors and logical issues, ensuring they are correct and valid before applying any changes.
+2. `terraform show` The terraform show command lets you see the details of your current infrastructure setup from tfstat file or planned changes in an easy-to-read format.
+3. `terraform refresh` The terraform refresh command updates the state file to reflect the actual state of resources. Example i create a repository with desciption `hello from goldy` and any devloper change after me change the description of this repo to `hello from xyz`.
 - In this situation in my tfstat file description have value `hello from goldy`, if i run `terraform refresh` command terraform will refresh all infrastructure to current state.
-- Now in tfstat file description value is `hello from xyz`
+- Now in tfstat file description value is `hello from xyz`.
+4. `terraform console` with this command we can print the values of variables. Syntax is <var.variablename>.
+5. `terraform fmt` this command is used to set the indentation of terraform files.
