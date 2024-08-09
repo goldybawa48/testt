@@ -12,7 +12,7 @@
     ```bash
     #!/bin/bash
     sudo apt update -y
-    sudo apt install apache -y
+    sudo apt install apache2 -y
 
 - main.tf file .
 
@@ -29,4 +29,5 @@
       }
     }
 
+- Now run `terraform apply`. then `userdata.sh` will run in the server.
 - Now this is how we can use userdata in terraform.
