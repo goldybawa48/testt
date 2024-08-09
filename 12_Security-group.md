@@ -45,7 +45,7 @@
     }
 
     output "security-group-id" {
-      value = aws_security_group.allow_tls.id
+      value = aws_security_group.first_security_group.id
     }
 
 - `ingress` = Inbound rule, `egress` = Outboundrule.
@@ -125,7 +125,7 @@
       ami             = "ami-04a81a99f5ec58529"
       instance_type   = "t2.micro"
       key_name = "your-key-name"
-      security_groups = [ "${aws_security_group.allow_tls.name}" ]
+      security_groups = [ "${aws_security_group.first_security_group.name}" ]
 
       tags = {
         Name = "terraform"
